@@ -6,15 +6,9 @@ const request = require('request'),
 
 const app = express();
 
-app.get('/api/examples', (req,res) => {
-	const examples = [
-		{id: 0, text:"React.js", img:"images/React.png"},
-		{id: 1, text:"Express.js", img:"images/Express.png"},
-		{id: 2, text:"MaterialUI", img:"images/MaterialUI.png"},
-	];
+var apis = require('./server/routes/api');
 
-	res.json(examples);
-});
+app.use('/', apis);
 
 const port = 5000;
 
