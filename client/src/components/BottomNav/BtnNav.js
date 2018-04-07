@@ -5,13 +5,11 @@ import Paper from 'material-ui/Paper';
 
 import IconHome from 'material-ui/svg-icons/action/home';
 import IconSearch from 'material-ui/svg-icons/action/search';
-import IconShoppingCart from 'material-ui/svg-icons/action/shopping-cart';
 import IconPerson from 'material-ui/svg-icons/social/person';
 
 import './BtnNav'
 const HomeIcon = <IconHome />;
 const searchIcon = <IconSearch />;
-const shoppingIcon = <IconShoppingCart />;
 const personIcon = <IconPerson />;
 
 

@@ -17,7 +17,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <MuiThemeProvider>
-            <img src="images/Status-Bar.png" width="100%" />
+            <img src="images/Status-Bar.png" width="100%" alt=""/>
             <AppBar
               title="Example"
               iconClassNameRight="muidocs-icon-navigation-expand-more"

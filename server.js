@@ -8,7 +8,7 @@ const app = express();
 
 var apis = require('./server/routes/api');
 
-app.use('/', apis);
+app.use('/api', apis);
 
 const port = 5000;
 
