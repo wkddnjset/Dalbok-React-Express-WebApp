@@ -12,7 +12,8 @@ var config = {
   user: db_user,
   password: db_pw,
   database: db_database,
-  connectionLimit: 30
+  connectionLimit: 30,
+  multipleStatements: true
 };
 
 var pool = mysql.createPool(config); 
