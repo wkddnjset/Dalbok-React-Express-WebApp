@@ -1,0 +1,51 @@
+.image{
+	width: 24%;
+	float: left;
+	margin:4%;
+	overflow: hidden;
+}
+ul {
+	list-style-type:none;
+}
+
+/* 검색바 *//* 검색바 *//* 검색바 *//* 검색바 *//* 검색바 *//* 검색바 */
+.header{
+	padding: 10px;
+}
+.search_bar{
+	margin-top: 0px;
+}
+.search_input input{
+	color:#FFF !important;
+}
+.search_input div{
+	color:#ffffff9c !important;
+}
+.search_input hr:nth-child(1){
+	border-bottom: 1px solid rgb(255, 255, 255) !important;
+}
+.search_input hr:nth-child(2){
+	border-bottom: 2px solid rgb(4, 155, 175) !important;
+}
+.btn{
+	margin-top: -5px !important;
+}
+.search_bar div:nth-child(2){
+	margin-top: -10px !important;
+}
+/* 검색바 *//* 검색바 *//* 검색바 *//* 검색바 *//* 검색바 *//* 검색바 */
+.GoogleMap{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:0px;
+}
+@media screen and (min-width: 435px){
+	.GoogleMap{
+		height: 74%;
+	    width: 89%;
+	    position: absolute;
+	    top: 130px;
+	    left: 23px;
+	}
+}

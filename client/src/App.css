@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 435px){
+  .BtnNav{
+    position: fixed !important;
+    bottom: 0px !important;
+  }
+}
+
+/* FloatBTN *//* FloatBTN *//* FloatBTN *//* FloatBTN */
+.popover{
+  background-color: #FFF0 !important; 
+  border: none !important;
+  box-shadow: none !important;
+  margin-left: 15px;
+}
+.float_btn_menu{
+  width: 40px !important;
+  padding:5px;
+}
+.float_btn_small{
+  margin:5px;
+}
+.float_btn_big{
+  position: fixed;
+    bottom: 30px;
+    left: 30px;
+}
+@media screen and (min-width: 435px){
+  .float_btn_big{
+      position: fixed;
+      bottom: 130px;
+      left: 50px;
+  }
+}
+/* FloatBTN *//* FloatBTN *//* FloatBTN *//* FloatBTN */

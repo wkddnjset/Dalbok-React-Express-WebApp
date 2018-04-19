@@ -1,0 +1,21 @@
+.agree_div > div > div > div > div > div > div{
+	overflow-x: hidden !important;
+	margin-bottom: -15px;
+}
+.personal_div > div > div > div > div > div > div{
+	overflow-x: hidden !important;
+	margin-bottom: -15px;
+}
+.Male{
+	float: left !important;
+    width: 30% !important;
+    margin: 5px 0 !important;
+    margin-left: 17% !important;
+    margin-right: 6% !important;
+}
+.Female{
+	float: left !important;
+    width: 30% !important;
+    margin: 5px 0 !important;
+    margin-right: 17% !important;
+}
